@@ -1,10 +1,12 @@
 'use strict'
 
-var s = require('underscore.string');
+
 
 var scholasticaHelpers = {}
 
 scholasticaHelpers.categoryLink = function(categoryTitle){
+  var s = require('underscore.string')
+
   return `<a href="${categoryTitle}">s.titleize(categoryTitle)</a>`
 }
 
