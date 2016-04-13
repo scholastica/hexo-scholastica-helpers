@@ -1,6 +1,6 @@
 'use strict'
 
-s = require('underscore.string');
+var s = require('underscore.string');
 
 var scholasticaHelpers = {}
 
