@@ -1,0 +1,8 @@
+{
+  "name": "hexo-scholastica-helpers",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {
+    "underscore.string": "^3.3.4"
+  }
+}
