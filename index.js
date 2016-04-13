@@ -2,11 +2,11 @@
 
 s = require('underscore.string');
 
-var scholasticaHelper = {}
+var scholasticaHelpers = {}
 
-scholasticaHelper.categoryLink = function(categoryTitle){
+scholasticaHelpers.categoryLink = function(categoryTitle){
   return `<a href="${categoryTitle}">s.titleize(categoryTitle)</a>`
 }
 
 
-module.exports = scholasticaHelper;
+module.exports = scholasticaHelpers;
