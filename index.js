@@ -9,4 +9,4 @@ scholasticaHelpers.categoryLink = function(categoryTitle){
 };
 
 
-module.exports = scholasticaHelpers.categoryLink;
+module.exports = scholasticaHelpers;
