@@ -1,12 +1,6 @@
-'use strict';
-
 var s = require('underscore.string');
 
-var scholasticaHelpers = {};
+hexo.extend.helper.register('categoryLink', function(categoryTitle){
+  return `<a href="/categories/${s.slugify(categoryTitle)}">${s.titleize(categoryTitle)}</a>`
+});
 
-scholasticaHelpers.categoryLink = function(categoryTitle){
-  return `<a href="${categoryTitle}">s.titleize(categoryTitle)</a>`;
-};
-
-
-module.exports = scholasticaHelpers;
